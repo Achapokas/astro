@@ -1,17 +1,148 @@
 <!-- Requirements: -->
-<!-- CSS/SCSS -->
-<!-- Bootstrap -->
 <!-- Smallest Screen: 320px -->
-<!-- Font: Roboto -->
-<!-- Icons: SVG -->
-<!-- Buttons should change color on hover -->
-<!-- Avatar is the only image -->
-<!-- IPhone 5: Text under the stars: 59k reviews -->
-<!-- Font sizes: 
-    Desktop/Tablet: s: 16px; l: 24px
-    Mobile: s: 14px; l: 20px;
--->
-<!-- Entire card should be clickable. cursor:pointer. Buttons should be clickable to a different url -->
 <!-- Favorites icon should react on click, and change color to red. Second click should change color back to original state -->
 <!-- Clicking on read more should add two more lines of text. Clicking on read less - return to normal layout -->
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Astrology.com: The Love Clarvoiyant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheets/index.css" />
+    </head>
+    <body>
+        <article class="astro container p-md-3 p-lg-5 ml-auto mt-5 mb-3">
+            <a class="astro-absolute" href="http://google.com" target="_blank">
+            </a>
+            <div class="row">
+                <div class="col-md-12 col-lg-9 col-xl-10">
+                    <div class="row">
+                        <div class="col col-md-4">
+                            <div class="astro-img-container">
+                                <div role="img" aria-label="woman with scarf covering her face" class="astro-img-circular">
+                                    <div class="icon-circle">
+                                        <svg class="astro-heart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-md-8">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="astro-article-title my-2">
+                                        <h2>The Love Clarvoiyant</h2>
+                                        <svg class="astro-checkmark-icon ml-auto d-sm-none d-md-block"
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z" />
+                                        </svg>
+                                    </div>
+                                    <p class="my-3 font-weight-bold">Stop Guessing. Known for accuracy</p>
+                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the
+                                        industry's
+                                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                        and scrambled it
+                                        to make a
+                                        type
+                                        specimen book. It has survived...</p>
+                                    <button class="p-0 btn btn-link">Read More</button>
+                                </div>
+                                <div class="col-md">
+                                    <ul class="astro-member-details">
+                                        <li class="my-2">
+                                            <div id="astro-star-rating" class="astro-star-rating">
+                                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                    fill-rule="evenodd" clip-rule="evenodd">
+                                                    <path
+                                                        d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z" />
+                                                </svg>
+                                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                    fill-rule="evenodd" clip-rule="evenodd">
+                                                    <path
+                                                        d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z" />
+                                                </svg>
+                                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                    fill-rule="evenodd" clip-rule="evenodd">
+                                                    <path
+                                                        d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z" />
+                                                </svg>
+                                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                    fill-rule="evenodd" clip-rule="evenodd">
+                                                    <path
+                                                        d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z" />
+                                                </svg>
+                                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+                                                    fill-rule="evenodd" clip-rule="evenodd">
+                                                    <path
+                                                        d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z" />
+                                                </svg>
+                                            </div>
+                                            <span class="d-sm-none d-md-block text-uppercase">59,322 Reviews</span>
+                                            <span class="d-sm-block d-md-none text-uppercase">59k reviews</span>
+                                        </li>
+                                        <li class="my-2">
+                                            <h3>2009</h3>
+                                            <p class="text-uppercase">Member Since</p>
+                                        </li>
+                                        <li class="my-2">
+                                            <div class="astro-member-details-group">
+                                                <h3>67,924</h3>
+                                                <svg class="astro-diamond-icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24">
+                                                    <path
+                                                        d="M18 1h-11.916l-6.084 7 12 15 12-14.917-6-7.083zm-3.387 8l-2.613 7.839-2.613-7.839h5.226zm-4.588-2l1.969-2.412 1.94 2.412h-3.909zm5.612-1.073l-2.354-2.927h3.33l-.976 2.927zm-7.286-.037l-.964-2.89h3.322l-2.358 2.89zm-1.738 1.11h-3.094l2.236-2.573.858 2.573zm.666 2l2.8 8.397-6.718-8.397h3.918zm9.442 0h3.975l-6.787 8.437 2.812-8.437zm.666-2l.868-2.604 2.206 2.604h-3.074z" />
+                                                </svg>
+                                            </div>
+                                            <p class="text-uppercase">Rating points</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col col-3-md">
+                            <p class="astro-subtext my-2">First 3 minutes free</p>
+                            <p class="astro-price my-2">$8.99 / <sub>min</sub></p>
+                        </div>
+                        <div class="col my-2">
+                            <a class="unset-link-styles" href="https://getbootstrap.com/" target="_blank">
+                                <button class="btn btn-primary btn-lg btn-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
+                                    </svg>
+                                    <span>Call Now</span>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col my-2">
+                            <a class="unset-link-styles" href="https://css-tricks.com/">
+                                <button class="btn btn-primary btn-lg btn-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 1c-6.627 0-12 4.364-12 9.749 0 3.131 1.817 5.917 4.64 7.7.868 2.167-1.083 4.008-3.142 4.503 2.271.195 6.311-.121 9.374-2.498 7.095.538 13.128-3.997 13.128-9.705 0-5.385-5.373-9.749-12-9.749z" />
+                                    </svg>
+                                    <span>Chat Now</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <script type="text/javascript"></script>
+        </script>
+    </body>
+</html>

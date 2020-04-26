@@ -1,0 +1,213 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+h2,
+h3,
+button {
+  font-size: 20px; }
+  @media (min-width: 768px) {
+    h2,
+    h3,
+    button {
+      font-size: 24px; } }
+
+.astro-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1; }
+
+button {
+  position: relative;
+  z-index: 2; }
+
+.unset-link-styles {
+  color: unset;
+  text-decoration: unset; }
+  .unset-link-styles:hover {
+    color: unset;
+    text-decoration: unset; }
+
+.text-uppercase {
+  color: #5c5c57; }
+
+p {
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style: none; }
+
+p,
+span,
+.btn-link {
+  font-size: 14px; }
+  @media (min-width: 768px) {
+    p,
+    span,
+    .btn-link {
+      font-size: 16px; } }
+
+h2,
+h3 {
+  margin: 0; }
+
+h2 {
+  color: #804743; }
+
+img {
+  max-width: 100%; }
+
+.icon-circle {
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 10px; }
+
+.btn-primary {
+  display: inline-flex;
+  background-color: #804743;
+  border: 1px solid transparent;
+  transition: ease-in-out 0.3s; }
+  .btn-primary svg {
+    padding-left: 4px;
+    fill: #fff; }
+  .btn-primary span {
+    padding-left: 10px; }
+  .btn-primary:hover {
+    border: 1px solid transparent;
+    background-color: #5f3431; }
+
+.btn-link {
+  transition: ease-in-out 0.3s;
+  color: #804743; }
+  .btn-link:hover {
+    border: 1px solid transparent;
+    color: #5f3431; }
+
+.astro {
+  position: relative;
+  border: 1px solid #dadad8;
+  padding: 10px;
+  box-shadow: 5px 5px #dadad8; }
+
+.astro-star-rating:hover {
+  fill: #804743; }
+
+.astro-subtext {
+  position: relative;
+  font-size: 12px;
+  padding: 4px 0 4px 10px;
+  font-weight: bold;
+  background-color: #804743;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 4px 0 0 4px; }
+  .astro-subtext:before, .astro-subtext:after {
+    position: absolute;
+    content: '';
+    right: -15px;
+    display: block;
+    width: 0px;
+    height: 0px; }
+    @media (min-width: 992px) {
+      .astro-subtext:before, .astro-subtext:after {
+        display: none; } }
+  .astro-subtext:before {
+    top: -1px;
+    border-top: 0 solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 14px solid #804743; }
+  .astro-subtext:after {
+    bottom: -1px;
+    border-top: 13px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 14px solid #804743; }
+  @media (min-width: 992px) {
+    .astro-subtext {
+      padding: 0;
+      background: transparent;
+      color: #5f3431; } }
+
+.astro-price {
+  font-weight: bold; }
+  .astro-price sub {
+    bottom: 0; }
+
+.astro-action-group {
+  display: flex;
+  align-items: center; }
+
+.astro-img-container {
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 50%; }
+  .astro-img-container .icon-circle {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: #fff; }
+    .astro-img-container .icon-circle:hover .astro-heart-icon {
+      fill: #804743; }
+  @media (min-width: 576px) {
+    .astro-img-container {
+      width: 100%;
+      height: 55%; } }
+  @media (min-width: 768px) {
+    .astro-img-container {
+      width: 100%;
+      height: 50%; } }
+  @media (min-width: 992px) {
+    .astro-img-container {
+      width: 100%;
+      height: 65%; } }
+  @media (min-width: 1200px) {
+    .astro-img-container {
+      width: 93%;
+      height: 100%; } }
+
+.astro-img-circular {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://i.picsum.photos/id/1027/400/400.jpg");
+  background-size: cover;
+  display: block;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center; }
+
+.astro-heart-icon {
+  fill: #d9b8b6; }
+
+.astro-diamond-icon {
+  margin-left: 10px; }
+
+.astro-heart-icon,
+.astro-diamond-icon {
+  transition: ease-in-out 0.3s; }
+  .astro-heart-icon:hover,
+  .astro-diamond-icon:hover {
+    fill: #804743; }
+
+.astro-checkmark-icon,
+.astro-diamond-icon {
+  fill: #804743; }
+
+.astro-article-title {
+  display: flex;
+  align-items: center; }
+
+.astro-member-details {
+  position: relative;
+  z-index: 2; }
+  .astro-member-details .astro-member-details-group {
+    display: flex;
+    align-items: center; }
+
+/*# sourceMappingURL=index.css.map */
